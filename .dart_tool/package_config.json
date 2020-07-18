@@ -74,6 +74,12 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "hexcolor",
+      "rootUri": "file:///C:/Users/Aditia%20Darma%20Nst/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/hexcolor-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.8"
+    },
+    {
       "name": "image",
       "rootUri": "file:///C:/Users/Aditia%20Darma%20Nst/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/image-2.1.12",
       "packageUri": "lib/",
@@ -188,7 +194,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-07-18T17:11:13.036430Z",
+  "generated": "2020-07-18T20:55:54.813320Z",
   "generator": "pub",
   "generatorVersion": "2.8.4"
 }

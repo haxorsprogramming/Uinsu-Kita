@@ -1,5 +1,4 @@
-import 'dart:html';
-
+// ignore: avoid_web_libraries_in_flutter
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/Screens/Login/components/background.dart';
 import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
@@ -9,7 +8,7 @@ import 'package:flutter_auth/components/rounded_input_field.dart';
 import 'package:flutter_auth/components/rounded_password_field.dart';
 import 'package:flutter_svg/svg.dart';
 
-enum LoginStatus { notSignIn, signIn}
+enum LoginStatus { notSignIn, signIn }
 
 class Body extends StatelessWidget {
   const Body({
@@ -43,9 +42,7 @@ class Body extends StatelessWidget {
             ),
             RoundedButton(
               text: "LOGIN",
-              press: () {
-                
-              },
+              press: () {},
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(
